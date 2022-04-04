@@ -14,7 +14,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, kor.MOD_ID);
 
     public static final RegistryObject<Item> KORMIX = ITEMS.register("kormix",
-            () -> new Item( new Item.Properties().group(ModItemGroup.KOR)));
+            () -> new Item( new Item.Properties().tab(ModItemGroup.KOR)));
+    public static final RegistryObject<Item> KORBRICK = ITEMS.register("korbrick",
+            () -> new Item( new Item.Properties().tab(ModItemGroup.KOR)));
+
 
 
 

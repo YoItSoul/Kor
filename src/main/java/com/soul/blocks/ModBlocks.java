@@ -24,11 +24,11 @@ public class ModBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, kor.MOD_ID);
 
     public static final RegistryObject<Block> KOR_ORE = registerBlock("kor_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.SAND)
-                    .harvestLevel(3).setRequiresTool()
+            () -> new Block(AbstractBlock.Properties.of(Material.SAND)
+                    .harvestLevel(3).requiresCorrectToolForDrops()
                     .harvestTool(ToolType.SHOVEL)
-                    .hardnessAndResistance(3f)
-                    .sound(SoundType.GROUND)
+                    .strength(3f)
+                    .sound(SoundType.SOUL_SAND)
             ));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -39,7 +39,7 @@ public class ModBlocks {
     }
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().group(ModItemGroup.KOR)));
+                new Item.Properties().tab(ModItemGroup.KOR)));
     }
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

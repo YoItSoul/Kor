@@ -8,7 +8,7 @@ public class ModItemGroup {
     public static final ItemGroup KOR = new ItemGroup("korModTab")
     {
         @Override
-        public ItemStack createIcon()
+        public ItemStack makeIcon()
         {
             return new ItemStack(ModItems.KORMIX.get());
         }
