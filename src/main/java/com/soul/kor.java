@@ -1,8 +1,8 @@
 package com.soul;
 
 import com.soul.blocks.ModBlocks;
+
 import com.soul.items.ModItems;
-import cpw.mods.modlauncher.api.ITransformationService;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,7 +38,7 @@ public class kor {
 
         ModItems.register(eventBus); // Register items
         ModBlocks.register(eventBus); // Register blocks
-
+        //EntityTypes.register(eventBus); // Register entities
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
