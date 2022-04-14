@@ -1,6 +1,14 @@
 {
-  "item.kor.kor_mixture": "Kor Mixture"
+  "item.kor.kor_mixture": "Kor Mixture",
+  "item.kor.arcane_compound": "Arcane Compound",
+  "item.kor.arctic_compound": "Arctic Compound",
+  "item.kor.charged_compound": "Charged Compound",
+  "item.kor.construction_compound": "Construction Compound",
+  "item.kor.demonic_compound": "Demonic Compound",
+  "item.kor.diluted_compound": "Diluted Compound",
 
 
+
+  "itemGroup.kortab": "Kor"
 
 }
