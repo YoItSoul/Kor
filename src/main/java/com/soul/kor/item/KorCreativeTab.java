@@ -7,7 +7,7 @@ public class KorCreativeTab {
     public static final CreativeModeTab TAB_KOR = new CreativeModeTab( "kortab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(KorItems.KOR_MIXTURE.get());
+            return new ItemStack(KorItems.OMNI_COMPOUND.get());
         }
     };
 }

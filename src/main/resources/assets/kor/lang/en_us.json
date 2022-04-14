@@ -6,8 +6,23 @@
   "item.kor.construction_compound": "Construction Compound",
   "item.kor.demonic_compound": "Demonic Compound",
   "item.kor.diluted_compound": "Diluted Compound",
-
-
+  "item.kor.discord_compound": "Discord Compound",
+  "item.kor.eldritch_compound": "Eldritch Compound",
+  "item.kor.elemental_compound": "Elemental Compound",
+  "item.kor.glowing_compound": "Glowing Compound",
+  "item.kor.magma_compound": "Magma Compound",
+  "item.kor.mystical_compound": "Mystical Compound",
+  "item.kor.nitro_compound": "Nitro Compound",
+  "item.kor.overcharged_compound": "Overcharged Mixture",
+  "item.kor.placeholder_question": "Placeholder",
+  "item.kor.plasma_compound": "Plasma Compound",
+  "item.kor.radioactive_compound": "Radioactive Compound",
+  "item.kor.reactive_compound": "Reactive Compound",
+  "item.kor.refined_compound": "Refined Compound",
+  "item.kor.sacrificial_compound": "Sacrificial Mixture",
+  "item.kor.tainted_compound": "Tainted Compound",
+  "item.kor.thermal_compound": "Thermal Compound",
+  "item.kor.omni_compound": "Omni Compound",
 
   "itemGroup.kortab": "Kor"
 
