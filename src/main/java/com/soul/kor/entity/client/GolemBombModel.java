@@ -13,12 +13,12 @@ public class GolemBombModel extends AnimatedGeoModel<golembomb> {
 
     @Override
     public ResourceLocation getTextureLocation(golembomb object) {
-        return new ResourceLocation(Kor.MOD_ID, "textures/entity/golembomb/GolemBomb.png");
+        return new ResourceLocation(Kor.MOD_ID, "textures/entity/golembomb/golembomb.png");
     }
 
     @Override
     public ResourceLocation getAnimationFileLocation(golembomb animatable) {
-        return new ResourceLocation(Kor.MOD_ID, "animations/idle_golembomb.json");
+        return new ResourceLocation(Kor.MOD_ID, "animations/animation.golembomb.idle.json");
     }
 
 

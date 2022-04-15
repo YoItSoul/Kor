@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"idle": {
+		"animation.golembomb.idle": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {

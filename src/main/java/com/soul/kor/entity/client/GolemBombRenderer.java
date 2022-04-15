@@ -13,12 +13,12 @@ import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 public class GolemBombRenderer extends GeoEntityRenderer<golembomb> {
     public GolemBombRenderer(EntityRendererProvider.Context renderManager) {
         super(renderManager, new GolemBombModel());
-        //this.shadowRadius = 0.3f;
+        this.shadowRadius = 0.3f;
     }
 
     @Override
     public ResourceLocation getTextureLocation(golembomb instance) {
-        return new ResourceLocation(Kor.MOD_ID, "textures/entity/golembomb/GolemBomb.png");
+        return new ResourceLocation(Kor.MOD_ID, "textures/entity/golembomb/golembomb.png");
     }
 
     @Override

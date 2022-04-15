@@ -1,7 +1,9 @@
 package com.soul.kor.item;
 
 import com.soul.kor.Kor;
+import com.soul.kor.entity.KorEntityTypes;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -63,6 +65,10 @@ public class KorItems {
     public static final RegistryObject<Item> OMNI_COMPOUND = ITEMS.register("omni_compound",
             () -> new Item(new Item.Properties().tab(KorCreativeTab.TAB_KOR)));
 
+    // Spawn egg for golembomb
+    public static final RegistryObject<ForgeSpawnEggItem> GOLEMBOMB_SPAWN_EGG = ITEMS.register("golembomb_spawn_egg",
+            () -> new ForgeSpawnEggItem(KorEntityTypes.GOLEMBOMB,0x948e8d, 0x3b3635,
+                    new Item.Properties().tab(KorCreativeTab.TAB_KOR)));
 
     // Add above this
     public static void register(IEventBus eventBus) {
