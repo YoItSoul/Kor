@@ -1,7 +1,6 @@
 package com.soul.kor.item;
 
 import com.soul.kor.Kor;
-
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -63,8 +62,6 @@ public class KorItems {
             () -> new Item(new Item.Properties().tab(KorCreativeTab.TAB_KOR)));
     public static final RegistryObject<Item> OMNI_COMPOUND = ITEMS.register("omni_compound",
             () -> new Item(new Item.Properties().tab(KorCreativeTab.TAB_KOR)));
-
-
 
 
     // Add above this
