@@ -2,6 +2,7 @@ package com.soul.kor;
 
 import com.soul.kor.entity.KorEntityTypes;
 import com.soul.kor.entity.client.GolemBombRenderer;
+import com.soul.kor.entity.client.GolemDefenderRenderer;
 import com.soul.kor.item.KorItems;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
@@ -50,6 +51,7 @@ public class Kor {
     private void clientSetup(final FMLClientSetupEvent event) {
         // Register golembomb
         EntityRenderers.register(KorEntityTypes.GOLEMBOMB.get(), GolemBombRenderer::new);
+        EntityRenderers.register(KorEntityTypes.GOLEMDEFENDER.get(), GolemDefenderRenderer::new);
 
     }
 

@@ -2,6 +2,7 @@ package com.soul.kor.entity;
 
 import com.soul.kor.Kor;
 import com.soul.kor.entity.custom.golembomb;
+import com.soul.kor.entity.custom.golemdefender;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -18,6 +19,11 @@ public class KorEntityTypes {
             () -> EntityType.Builder.of(golembomb::new, MobCategory.MONSTER)
                     .sized(.75f, .75f)
                     .build(new ResourceLocation(Kor.MOD_ID, "golembomb").toString()));
+
+    public static final RegistryObject<EntityType<golemdefender>> GOLEMDEFENDER = ENTITY_TYPES.register("golemdefender",
+            () -> EntityType.Builder.of(golemdefender::new, MobCategory.MONSTER)
+                    .sized(4.5f, 6f)
+                    .build(new ResourceLocation(Kor.MOD_ID, "golemdefender").toString()));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

@@ -13,5 +13,7 @@ public class KorEventBusEvents {
     @SubscribeEvent
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(KorEntityTypes.GOLEMBOMB.get(), golembomb.setAttributes());
+        event.put(KorEntityTypes.GOLEMDEFENDER.get(), golembomb.setAttributes());
+
     }
 }

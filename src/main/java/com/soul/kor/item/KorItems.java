@@ -67,7 +67,11 @@ public class KorItems {
 
     // Spawn egg for golembomb
     public static final RegistryObject<ForgeSpawnEggItem> GOLEMBOMB_SPAWN_EGG = ITEMS.register("golembomb_spawn_egg",
-            () -> new ForgeSpawnEggItem(KorEntityTypes.GOLEMBOMB,0x948e8d, 0x3b3635,
+            () -> new ForgeSpawnEggItem(KorEntityTypes.GOLEMBOMB, 0x948e8d, 0x3b3635,
+                    new Item.Properties().tab(KorCreativeTab.TAB_KOR)));
+
+    public static final RegistryObject<ForgeSpawnEggItem> GOLEMDEFENDER_SPAWN_EGG = ITEMS.register("golemdefender_spawn_egg",
+            () -> new ForgeSpawnEggItem(KorEntityTypes.GOLEMDEFENDER, 0x948e8d, 0x3b3635,
                     new Item.Properties().tab(KorCreativeTab.TAB_KOR)));
 
     // Add above this
