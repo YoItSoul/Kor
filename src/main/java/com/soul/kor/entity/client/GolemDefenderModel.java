@@ -18,7 +18,7 @@ public class GolemDefenderModel extends AnimatedGeoModel<golemdefender> {
 
     @Override
     public ResourceLocation getAnimationFileLocation(golemdefender animatable) {
-        return new ResourceLocation(Kor.MOD_ID, "animations/animation.golemdefender.idle.json");
+        return new ResourceLocation(Kor.MOD_ID, "animations/animation.golemdefender.json");
     }
 
 

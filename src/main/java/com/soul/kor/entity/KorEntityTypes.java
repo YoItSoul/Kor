@@ -22,7 +22,7 @@ public class KorEntityTypes {
 
     public static final RegistryObject<EntityType<golemdefender>> GOLEMDEFENDER = ENTITY_TYPES.register("golemdefender",
             () -> EntityType.Builder.of(golemdefender::new, MobCategory.MONSTER)
-                    .sized(4.5f, 6f)
+                    .sized(3.5f, 5f)
                     .build(new ResourceLocation(Kor.MOD_ID, "golemdefender").toString()));
 
     public static void register(IEventBus eventBus) {

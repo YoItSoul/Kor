@@ -18,7 +18,7 @@ public class GolemBombModel extends AnimatedGeoModel<golembomb> {
 
     @Override
     public ResourceLocation getAnimationFileLocation(golembomb animatable) {
-        return new ResourceLocation(Kor.MOD_ID, "animations/animation.golembomb.idle.json");
+        return new ResourceLocation(Kor.MOD_ID, "animations/animation.golembomb.json");
     }
 
 

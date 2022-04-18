@@ -13,7 +13,7 @@ import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 public class GolemDefenderRenderer extends GeoEntityRenderer<golemdefender> {
     public GolemDefenderRenderer(EntityRendererProvider.Context renderManager) {
         super(renderManager, new GolemDefenderModel());
-        this.shadowRadius = 3f;
+        this.shadowRadius = 2f;
     }
 
     @Override
