@@ -1,5 +1,6 @@
 package com.soul.kor;
 
+import com.soul.kor.block.KorBlocks;
 import com.soul.kor.entity.KorEntityTypes;
 import com.soul.kor.entity.client.GolemBombRenderer;
 import com.soul.kor.entity.client.GolemDefenderRenderer;
@@ -31,6 +32,8 @@ public class Kor {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         KorItems.register(eventBus);
+        KorBlocks.register(eventBus);
+
         KorEntityTypes.register(eventBus);
         eventBus.addListener(this::setup);
 
